@@ -11,8 +11,8 @@ JST = timezone(timedelta(hours=+9), 'JST')
 
 def insert_bq(days, maxtemp_list, mintemp_list):
     client = bigquery.Client()
-    dataset_id = 'kappa_bq'
-    table_id = 'weather_forecast'
+    dataset_id = '<replace to your dataset>'
+    table_id = '<replace to your table>'
     dataset_ref = client.dataset(dataset_id)
     dataset = client.get_dataset(dataset_ref)
 
