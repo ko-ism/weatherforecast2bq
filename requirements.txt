@@ -2,5 +2,5 @@
 # package>=version
 requests>=2.20.0
 bs4==0.0.1
-lxml==4.2.5
+lxml==4.6.2
 google-cloud-bigquery==1.6.0
